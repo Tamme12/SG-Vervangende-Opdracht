@@ -7,19 +7,27 @@
 <link rel="stylesheet" type="text/css" href="contactformuliercss.css">
 
 <header>
-	 
-	<img id="contact" src="afbeeldingen/15554.png">
-    <h1>Contactformulier</h1>
+
+	<div class='grid-container'>
+	  <div class='grid-left'><img id="contact" src="afbeeldingen/15554.png" alt="Logo van communicatie"></div>
+	  <div class='grid-center'><h1>Contactpagina</h1></div>
+	  <div class='grid-right'><button>Home</button><button>Contact</button><button>Info</button></div>
+	</div>
+
+
+ 
+
 
 </header>
 
 <main>
 	<div class="container">
 		<div class="grid-left">
-		<h2>Vul hier u gegevens in</h2> 
+			<h2>Vul hier u gegevens in</h2> 
 		</div>
 
 	 	<form>	
+
 			<label for="Voornaam">Voornaam:</label>
 			<input type="text" name="Voornaam" id="Voornaam">
 
@@ -34,7 +42,12 @@
 
 			<label for="Vragenofopmerkingen">Vragen of opmerkingen:</label>
 			<input type="text" name="Vragenofopmerkingen" id="Vragenofopmerkingen">
+
+			<input type="reset" name="reset" id="reset" value="Formulier legen">
+			<input type="submit" name="submit" id="submit" value="Versturen">
 		</form>
+
+
 
 	</div>		
 
