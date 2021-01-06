@@ -15,16 +15,20 @@ img {
   max-height: 100px;
   max-width: 100px;
   padding: 25px;
+  max-width: 100%;
+  height: auto;
 }
 
 h1 { 
 color: #ee7b1e;
 font-style: italic;
+font-size: 1.5vw;
 }
 h2{
   color: #337ab7;
   margin: 25px;
   font-weight: bold;
+  font-size: 1vw;
 }
 
 body {
@@ -58,8 +62,9 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
-
+aside {
+  font-weight: bold;
+}
 /* hiermee worden de textvlakken van de form strak onder elkaar geplaatst */
 .container {
   max-width: 60%;
@@ -104,11 +109,34 @@ input[id="reset"] {
   width: 70%;
   justify-content: center;
 }
-a.button {
+a.button2 {
   background-color: #337ab7;
   border: none;
   color: white;
   padding: 15px ;
   text-decoration: none;
   font-size: 16px;
+  position: absolute;
+  top: 140px;
+  right: 90px;
+}
+a.button1 {
+  background-color: #337ab7;
+  border: none;
+  color: white;
+  padding: 15px ;
+  text-decoration: none;
+  font-size: 16px;
+  position: absolute;
+  top: 140px;
+  right: 10px;
+}
+
+div.grid-left {
+
+}
+
+#zijkant {
+  margin-left: 25px;
+  max-width: 70%;
 }
