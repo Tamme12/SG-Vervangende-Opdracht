@@ -55,7 +55,8 @@ ul {
 @media screen and (min-width: 40em) {
   .boxes li:nth-child(1) {
     grid-column: 1 / -1;
-    grid-row: span 2
+    grid-row: span 3;
+    align-items: center;
   }
 }
 @media screen and (min-width: 40em) {
@@ -77,8 +78,45 @@ ul {
   .boxes li:nth-child(5){
     grid-column: span 2;
     grid-row: span 6;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color:  black;
   }
   .boxes li:nth-child(6) {
     grid-column: 1 / -1;
     grid-row: span 2
   }
+
+p {
+  font-size: 
+}
+
+/*styling binnen het formulier */ 
+#formulier {
+    width: 40em;
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+/* styling om het formulier heen */
+#contactformulier {
+  font-family: Avenir, sans-serif;
+  font-size: 0.8em;
+    width: 50em;
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+/* hierdoor wordt de padding en border bij de width en height inberekend */
+#contactformulier * {
+  box-sizing: border-box;
+}
+/* groepeerd de keuzes in het formulier */ 
+#contactformulier fieldset {
+border: none;
+padding: 0;
+}
+#contactformulier legend,
+#contactformulier label {
+padding: 0;
+font-weight: bold;
+}

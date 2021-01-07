@@ -38,8 +38,59 @@
 			 </li>
 			 <li>
 			    <div class="boxes__text-wrapper">
-			      <h2>5</h2>
-			      <p>Zoekt u contact met ons? vul dit formulier in:</p>
+			      
+
+						<form id="contactformulier" class="formulier" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+
+						<p id="formulier">
+						<label>Voornaam
+						<input type="text" name="klant_voornaam" required>
+						</label> 
+						</p>
+
+						<p id="formulier">
+						<label>Telefoonnummer 
+						<input type="tel" name="Telefoonnummer">
+						</label>
+						</p>
+
+						<p id="formulier">
+						<label>Email 
+						<input type="email" name="email_adres" required="">
+						</label>
+						</p>
+
+						<fieldset>
+						<legend>Waar gaat het over?</legend>
+						<p id="formulier"><label class="choice"> <input type="radio" name="betreft" required value="car"> Vraag </label></p>
+						<p id="formulier"><label class="choice"> <input type="radio" name="betreft" required value="van"> Klacht </label></p>
+						<p id="formulier"><label class="choice"> <input type="radio" name="betreft" required value="tuktuk"> Anders namelijk: </label></p>
+						</fieldset>
+
+						<p id="formulier">
+						<label>Onderwerp 
+						<input type="text" name="onderwerp">
+						</label>
+						</p>
+
+						<p id="formulier">
+						<label>Datum 
+						<input type="datetime-local" name="Datum" required>
+						</label>
+						</p>
+
+
+						<p id="formulier">
+						<label>Bericht
+						<textarea name="text" maxlength="500"></textarea>
+						</label>
+						</p>
+
+						<input type="reset" name="reset" id="reset" value="Formulier legen">
+						<input type="submit" name="submit" id="submit" value="Versturen">
+						</form>
+					</form>
+
 			    </div>
 			 </li>
 			 <li>
