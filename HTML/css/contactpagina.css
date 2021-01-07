@@ -55,7 +55,7 @@ ul {
 @media screen and (min-width: 40em) {
   .boxes li:nth-child(1) {
     grid-column: 1 / -1;
-    grid-row: span 3;
+    grid-row: span 2;
     align-items: center;
   }
 }
@@ -64,17 +64,20 @@ ul {
     grid-column: span 1;
     grid-row: span 7;
   }
-
+}
+@media screen and (min-width: 40em) {
   .boxes li:nth-child(3) {
     grid-column: span 2;
     grid-row: span 1;
   }
-
+}
+@media screen and (min-width: 40em) {
   .boxes li:nth-child(4) {
     grid-column: span 1;
     grid-row: span 7;
   }
-
+}
+@media screen and (min-width: 40em) {
   .boxes li:nth-child(5){
     grid-column: span 2;
     grid-row: span 6;
@@ -83,10 +86,13 @@ ul {
     background-color: white;
     color:  black;
   }
+}
+@media screen and (min-width: 40em) {
   .boxes li:nth-child(6) {
     grid-column: 1 / -1;
     grid-row: span 2
   }
+}
 
 p {
   font-size: 
@@ -102,7 +108,7 @@ p {
 #contactformulier {
   font-family: Avenir, sans-serif;
   font-size: 0.8em;
-    width: 50em;
+    width: 40em;
   padding: 1em;
   border: 1px solid #ccc;
 }
@@ -112,11 +118,56 @@ p {
 }
 /* groepeerd de keuzes in het formulier */ 
 #contactformulier fieldset {
-border: none;
-padding: 0;
+  border: none;
+  padding: 0;
 }
+
+/* maakt de tekst buiten en binnen de vakken bold */
 #contactformulier legend,
 #contactformulier label {
-padding: 0;
-font-weight: bold;
+  padding: 0;
+  font-weight: bold;
+}
+/* styling radial buttons, responsive font-size */
+#contactformulier label.choice {
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+/* maakt de borders dezelfde kleur/dikte, maakt alles passen binnen het groeperende vierkant, wat responsive font sizes en nieuwe elementen nemen de complete breedte in */
+#contactformulier input[type="text"],
+#contactformulier input[type="tel"],
+#contactformulier input[type="email"],
+#contactformulier input[type="datetime-local"],
+#contactformulier select,
+#contactformulier textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  font-family: Avenir, sans-serif;
+  font-size: 0.9em;
+  padding: 0.3em;
+  }
+/* een vast formaat voor de textarea */
+#contactformulier textarea {
+  height: 100px;
+  resize: none;
+}
+
+/* styling van de buttons */
+#reset, #submit {
+  padding: 1em;
+  border-radius: 0.5em;
+  background: orange;
+  border: none;
+  font-weight: bold;
+  margin-top: 1em;
+}
+#submit:hover {
+background: #337ab7;
+cursor: pointer;
+}
+#reset:hover {
+background: #337ab7;
+cursor: pointer;
 }
