@@ -90,14 +90,9 @@ ul {
 @media screen and (min-width: 40em) {
   .boxes li:nth-child(6) {
     grid-column: 1 / -1;
-    grid-row: span 2
+    grid-row: span 1
   }
 }
-
-p {
-  font-size: 
-}
-
 /*styling binnen het formulier */ 
 #formulier {
     width: 40em;
@@ -165,9 +160,14 @@ p {
 }
 #submit:hover {
 background: #337ab7;
+color: white;
 cursor: pointer;
 }
 #reset:hover {
 background: #337ab7;
+color: white;
 cursor: pointer;
+}
+#title {
+padding-left: 5%;
 }
