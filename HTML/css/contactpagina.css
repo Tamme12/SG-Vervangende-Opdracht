@@ -22,6 +22,7 @@ p {
   padding: 8px;
   background-color: #f1f1f1;
   color: black;
+  border-radius: 15px;
 }
 .boxes {
   display: grid;
@@ -184,11 +185,26 @@ cursor: pointer;
 .boxes-header {
   width: 100%;
 }
+.boxes-contacttext {
+  width: 100%;
+  height: auto;
+}
 .middenheader {
   width: 60%;
 }
-
+.boxes-links {
+margin: auto;
+text-align: center;
+display: block !important ;
+}
+#gmap-locatie {
+  border: none;
+  text-align: center;
+}
 #logo {
   width: auto;
   height: 100%;
 }
+
+
+
