@@ -2,35 +2,26 @@ body {
   font-family: Avenir, sans-serif;
   margin: 2rem auto;
   width: 95%;
-  background-color: orange;
+  background-color: #347ab5;
 }
 h2{
-  color: #ee7b1e;
+  color: #cc1f27;
   font-size: 2vw;
 }
 #bold {
   font-weight: bold;
 }
-.responsive {
-  width: 20%;
-  height: auto;
-}
 
-}
 h2,
 p {
   margin: 0;
 }
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+
 /* de styling van de boxes */ 
 .boxes > * {
   padding: 8px;
-  background-color: grey;
-  color: white;
+  background-color: #f1f1f1;
+  color: black;
 }
 .boxes {
   display: grid;
@@ -45,40 +36,40 @@ ul {
   }
 }
 /* hier kan een eventuele achtergrond afbeelding worden ingevoegd */ 
-.boxes li {
+.boxes div {
   display: flex;
   align-items: flex-end;
 }
-/*  door gebruikt te maken van li:nth Child kan je de aparte grid-boxes aanpassen 
+/*  door gebruikt te maken van div:nth Child kan je de aparte grid-boxes aanpassen 
     Met het gebruik van span wordt de hoogte bepaald 
     doormiddel van column wordt de breedte bepaald */
 @media screen and (min-width: 40em) {
-  .boxes li:nth-child(1) {
+  .boxes div:nth-child(1) {
     grid-column: 1 / -1;
-    grid-row: span 2;
+    grid-row: span 1;
     align-items: center;
   }
 }
 @media screen and (min-width: 40em) {
-  .boxes li:nth-child(2) {
+  .boxes div:nth-child(2) {
     grid-column: span 1;
     grid-row: span 7;
   }
 }
 @media screen and (min-width: 40em) {
-  .boxes li:nth-child(3) {
+  .boxes div:nth-child(3) {
     grid-column: span 2;
     grid-row: span 1;
   }
 }
 @media screen and (min-width: 40em) {
-  .boxes li:nth-child(4) {
+  .boxes div:nth-child(4) {
     grid-column: span 1;
     grid-row: span 7;
   }
 }
 @media screen and (min-width: 40em) {
-  .boxes li:nth-child(5){
+  .boxes div:nth-child(5){
     grid-column: span 2;
     grid-row: span 6;
     align-items: center;
@@ -88,22 +79,21 @@ ul {
   }
 }
 @media screen and (min-width: 40em) {
-  .boxes li:nth-child(6) {
+  .boxes div:nth-child(6) {
     grid-column: 1 / -1;
     grid-row: span 1
   }
 }
 /*styling binnen het formulier */ 
 #formulier {
-    width: 40em;
   padding: 1em;
   border: 1px solid #ccc;
 }
 /* styling om het formulier heen */
 #contactformulier {
   font-family: Avenir, sans-serif;
+  width: 100%;
   font-size: 0.8em;
-    width: 40em;
   padding: 1em;
   border: 1px solid #ccc;
 }
@@ -150,24 +140,55 @@ ul {
 }
 
 /* styling van de buttons */
-#reset, #submit {
+#reset, #submit, #home, #contact, #foto {
   padding: 1em;
   border-radius: 0.5em;
-  background: orange;
+  background: #347ab5;
   border: none;
   font-weight: bold;
   margin-top: 1em;
+  color: white;
+  text-decoration: none;
+}
+#contact, #home, #foto {
+  margin: 5px;
 }
 #submit:hover {
-background: #337ab7;
-color: white;
+background: #cc1f27;
+color: black;
 cursor: pointer;
 }
 #reset:hover {
-background: #337ab7;
-color: white;
+background: #cc1f27;
+color: black;
 cursor: pointer;
 }
-#title {
-padding-left: 5%;
+#home:hover {
+  background: #cc1f27;
+  color: black;
+  cursor: pointer;
+}
+#contact:hover {
+  background: #cc1f27;
+  color: black;
+  cursor: pointer;
+}
+#foto:hover {
+  background: #cc1f27;
+  color: black;
+  cursor: pointer;
+}
+.boxes-formulier {
+  width: 100%;
+}
+.boxes-header {
+  width: 100%;
+}
+.middenheader {
+  width: 60%;
+}
+
+#logo {
+  width: auto;
+  height: 100%;
 }
