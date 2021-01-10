@@ -16,7 +16,6 @@ h2,
 p {
   margin: 0;
 }
-
 /* de styling van de boxes */ 
 .boxes > * {
   padding: 8px;
@@ -38,7 +37,7 @@ p {
 }
 /* hier kan een eventuele achtergrond afbeelding worden ingevoegd */ 
 .boxes div {
-  display: flex;
+  display: block;
   align-items: flex-end;
 }
 /*  door gebruikt te maken van div:nth Child kan je de aparte grid-boxes aanpassen 
@@ -85,18 +84,16 @@ p {
     grid-row: span 1
   }
 }
-/*styling binnen het formulier */ 
-#formulier {
+
+p {
   padding: 1em;
-  border: 1px solid #ccc;
 }
 /* styling om het formulier heen */
 #contactformulier {
   font-family: Avenir, sans-serif;
-  width: 100%;
+  width: 95%;
   font-size: 0.8em;
   padding: 1em;
-  border: 1px solid #ccc;
 }
 /* hierdoor wordt de padding en border bij de width en height inberekend */
 #contactformulier * {
@@ -141,7 +138,7 @@ p {
 }
 
 /* styling van de buttons */
-#reset, #submit, #home, #contact, #foto {
+#reset, #submit, #home, #contact, #brochure, #route {
   padding: 1em;
   border-radius: 0.5em;
   background: #347ab5;
@@ -151,10 +148,15 @@ p {
   color: white;
   text-decoration: none;
 }
-#contact, #home, #foto {
+#contact, #home, #brochure {
   margin: 5px;
 }
 #submit:hover {
+background: #cc1f27;
+color: black;
+cursor: pointer;
+}
+#route:hover {
 background: #cc1f27;
 color: black;
 cursor: pointer;
@@ -174,7 +176,7 @@ cursor: pointer;
   color: black;
   cursor: pointer;
 }
-#foto:hover {
+#brochure:hover {
   background: #cc1f27;
   color: black;
   cursor: pointer;
@@ -184,27 +186,51 @@ cursor: pointer;
 }
 .boxes-header {
   width: 100%;
+ /* background-image: url("afbeelding/bg.png"); */
+  
 }
 .boxes-contacttext {
   width: 100%;
   height: auto;
 }
-.middenheader {
-  width: 60%;
+.boxes-footer {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.knoppen {
+  float: right;
 }
 .boxes-links {
 margin: auto;
 text-align: center;
-display: block !important ;
+font-family: Avenir, sans-serif;
+width: 95%;
+font-weight: bold;
+color: #347ab5;
 }
 #gmap-locatie {
   border: none;
-  text-align: center;
+  margin: 15px;
 }
 #logo {
   width: auto;
   height: 100%;
 }
+#embleem {
+  width: 10%;
+  height: auto;
+  float: left;
+}
+#footer-midden {
 
+}
 
+#footer-rechts{
+  padding-top: 20px;
+  float: right;
+  font-family: Avenir, sans-serif;
+  font-weight: bold;
+  color: #cc1f27;
+}
 

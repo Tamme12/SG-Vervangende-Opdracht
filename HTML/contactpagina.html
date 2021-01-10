@@ -13,20 +13,22 @@
 			<div>
 			    <div class="boxes-header">
 			    	<div class="logo"><img id="logo" src="afbeeldingen/icon.png" alt="Het logo van het Certified Clown College"></div>
-			    	<div class="middenheader"></div>
 			    	<div class="knoppen">
 			    		<a id="home" href="home.nl">Home</a>
 			    		<a id="contact" href="contactpagina.html">contact</a>
-			    		<a id="foto" href="foto.html">Foto's</a>
+			    		<a id="brochure" href="brochure.html">brochure</a>
 			    	</div>
 			    </div>
 			 </div>
 			<div>
 			    <div class="boxes-links">
-			    		<h2>Veel voorkomende vragen</h2>
+			    		<h2>Algemene Informatie</h2>
+			    		<p>Onze locatie:</p>
+			    		<p>Van Schaikweg 94, 7811 KL Emmen, Nederland</p>
 			      		<div class="gmap-locatie">
 			      			<iframe id="gmap-locatie" src="https://maps.google.com/maps?q=nhl%20stenden%20emmen&t=&z=13&ie=UTF8&iwloc=&output=embed" ></iframe>
 			      		</div>
+			      		<a id="route" href="https://www.google.com/maps/dir//NHL+Stenden+Hogeschool,+Van+Schaikweg+94,+7811+KL+Emmen,+Nederland/@52.77825,6.912371,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47b7e61f3ec72443:0xbe9d297b3e4fbcc7!2m2!1d6.9123707!2d52.7782504!3e0?hl=nl-NL">Plan je reis!</a>
 			    </div>
 			</div>
 			<div>
@@ -36,11 +38,9 @@
 			    </div>
 			 </div>
 			 <div>
-			    <div class="boxes__text-wrapper">
-			      <h2>Voor dringende zaken</h2>
+			    <div class="boxe-rechts">
+			      <h2>rechts</h2>
 			      	<address>
-					  <a href="mailto:clowncollege@gmail.com">clowncollege@gmail.com</a><br>
-					  <a href="tel:+31 1231231">06 1212121</a>
 					</address>
 			    </div>
 			 </div>
@@ -50,19 +50,25 @@
 
 						<form id="contactformulier" class="formulier" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 
-						<p id="formulier">
+						<p>
 						<label>Voornaam
 						<input type="text" name="klant_voornaam" required>
 						</label> 
 						</p>
 
-						<p id="formulier">
+						<p>
+						<label>Achternaam
+						<input type="text" name="klant_" required>
+						</label> 
+						</p>
+
+						<p>
 						<label>Telefoonnummer 
 						<input type="tel" name="Telefoonnummer">
 						</label>
 						</p>
 
-						<p id="formulier">
+						<p>
 						<label>Email 
 						<input type="email" name="email_adres" required="">
 						</label>
@@ -70,25 +76,25 @@
 
 						<fieldset>
 						<legend>Waar gaat het over?</legend>
-						<p id="formulier"><label class="choice"> <input type="radio" name="betreft" required value="car"> Vraag </label></p>
-						<p id="formulier"><label class="choice"> <input type="radio" name="betreft" required value="van"> Klacht </label></p>
-						<p id="formulier"><label class="choice"> <input type="radio" name="betreft" required value="tuktuk"> Anders namelijk: </label></p>
+						<p><label class="choice"> <input type="radio" name="betreft" required value="vraag"> Vraag </label></p>
+						<p><label class="choice"> <input type="radio" name="betreft" required value="Klacht"> Klacht </label></p>
+						<p><label class="choice"> <input type="radio" name="betreft" required value="Anders namelijk:"> Anders namelijk: </label></p>
 						</fieldset>
 
-						<p id="formulier">
+						<p>
 						<label>Onderwerp 
 						<input type="text" name="onderwerp">
 						</label>
 						</p>
 
-						<p id="formulier">
+						<p>
 						<label>Datum 
 						<input type="datetime-local" name="Datum" required>
 						</label>
 						</p>
 
 
-						<p id="formulier">
+						<p>
 						<label>Bericht
 						<textarea name="text" maxlength="500"></textarea>
 						</label>
@@ -96,14 +102,19 @@
 
 						<input type="reset" name="reset" id="reset" value="Formulier legen">
 						<input type="submit" name="submit" id="submit" value="Versturen">
-						</form>
+						
 					</form>
 
 			    </div>
 			 </div>
 			 <div>
-			    <div class="boxes__text-wrapper">
-			      <h2>Footer</h2>
+			    <div class="boxes-footer">
+			      <img id="embleem" src="afbeeldingen/CCC.png" alt="Embleem van het Certified Clown College">
+			      <div id="footer-midden">Ontdek!</div>
+			      <div id="footer-rechts">		    		
+			      		<a id="home" href="home.nl">Home</a>
+			    		<a id="contact" href="contactpagina.html">contact</a>
+			    		<a id="brochure" href="brochure.html">brochure</a></div>
 			      <p></p>
 			    </div>
 			 </div>
