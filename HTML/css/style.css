@@ -1,0 +1,132 @@
+body {
+	margin: 0 ;
+	padding: 0 ;
+	font-family: Arial ;
+	background-color: #ffffff ;
+}
+.container { 
+	display: flex ;
+	flex-direction: row ;
+	width: 100% ;
+	height: 100% ;
+
+}
+div.main {
+
+	width: 1248px ;
+	height: 100% ;
+	padding: 10px 10px 10px 100px ;
+}
+
+/*
+Header
+*/
+
+header {
+	width:100%;
+	height:80px;
+	background-color: #347ab5 ;
+	display:flex;
+	flex-direction:row ;
+	justify-content: space-between ;
+}
+img.logo {
+}
+ul.headul {
+	display: inline ;
+	text-decoration: none;
+	align-self:flex-end ;
+}
+li.list {
+	display: inline;
+	text-decoration: none ;
+	margin-right: 25px ;
+	font-size: 200%;
+	transition: .5s;
+}
+a {
+	text-decoration:none;
+	color:#cc1f27
+}
+a:hover {
+	text-decoration: underline ;
+	text-decoration-color:  #cc1f27 ;	
+}
+
+/*
+RSS feed
+*/
+
+div.rssfeed {
+	width: 672px ;
+	height: 100% ;
+	background-color: #f1f1f1 ;
+	padding: 10px 10px 10px 10px ;
+}
+
+/*
+activiteiten
+*/
+
+.actfoto {
+	margin-bottom: 20px ;
+}
+h1 {
+	color: #cc1f27 ;
+}
+div.activiteit {
+	width: 100% ;
+	background-color: #ffffff ;
+	display: flex ;
+	flex-direction: row ;
+	background-color: #f1f1f1 ;
+	margin-bottom: 30px ;
+}
+.afoto {
+	width: 300px ;
+	height: 200px ;
+}
+.contentdiv {
+	display: flex ;
+	flex-direction: column ;
+	padding: 5px ;
+}
+.titeldiv {
+	width: 100% ;
+	height: 25% ;
+	border: 1px solid #f1f1f1 ;
+}
+h2.titel {
+	color: #cc1f27 ;
+	margin: 5px 0px 0px 10px ;
+}
+.textdiv {
+	width: 100% ;
+	height: 75% ;
+	border: 1px solid #f1f1f1 ;
+}
+p.text {
+	margin: 15px 0px 0px 10px ;
+}
+
+/*
+artiekel
+*/
+.artimgdiv {
+	width:100% ;
+	height: 40% ;
+}
+.artimg {
+	width: 100% ;
+	height: 100% ;
+}
+.arttext {
+}
+
+
+/* 
+wit: #ffffff
+rood: #cc1f27
+blauw: #347ab5
+lichtgrijs: f1f1f1
+*/
