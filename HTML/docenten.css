@@ -23,7 +23,7 @@ a {
 
 .site-navigation {
   display: flex;
-  width: 510px;
+  width: 95%;
   padding: 0 20px;
   margin: 0 auto;
 
@@ -52,11 +52,10 @@ a {
 
 .navigation-list {
   display: flex;
-  margin: 0 -15px 0 0;
+  margin: 3vh -15px 0 0;
   padding: 0;
 
   list-style: none;
-  flex-wrap: wrap;
   justify-content: flex-end;
 }
 
@@ -215,7 +214,7 @@ a {
 
 .site-footer a {
   display: block;
-  margin: 0;
+  margin: auto 0;
   padding: 14px 15px;
 
   color: #ffffff;
