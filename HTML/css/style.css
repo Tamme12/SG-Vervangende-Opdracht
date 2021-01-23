@@ -9,7 +9,6 @@ body {
 	flex-direction: row ;
 	width: 100% ;
 	height: 100% ;
-
 }
 div.main {
 
@@ -123,6 +122,40 @@ artiekel
 .arttext {
 }
 
+/*
+Gallerij
+*/
+
+.galleryPic {
+	width: 100px;
+	height: auto;
+	border: 10px solid white;
+}
+
+.galleryPic:hover {
+	border: 10px solid #cc1f27;
+}
+
+.galleryDiv {
+	position: relative;	
+	display: block;	
+	margin: 4% 10% auto 10%;
+	border: 2px solid #347ab5;
+}
+
+.bigPic {
+	position: relative;
+	display: block;
+	width: 30%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bigPic:hover {
+	width: 60%;
+	height: auto;
+}
 
 /* 
 wit: #ffffff

@@ -19,7 +19,7 @@
 			<div class="textdiv"><p class="text">Ik ben mijn artistieke studies begonnen vanuit het klassieke theater en al snel raakte ik geïnteresseerd in het gebaartheater,
 			body arts en deze globale en onbegrensde mogelijkheden en manieren van expressie. De personages die ik aan het begin van mijn carrière heb gespeeld,
 			hadden al een fysieke uitvoering en ik probeerde onmiddellijk een manier te vinden om het gebruik van de woorden te beperken door de intenties van de personages 
-			uit de bewegingen te spelen... <a href="Comic-identity-of-the-body-basic-level.php">Verder Lezen.</a></p></div>
+			uit de bewegingen te spelen... <a href="Artiekelen/Comic-identity-of-the-body-basic-level.php">Verder Lezen.</a></p></div>
 		</div>
 	</div>
 	
