@@ -116,7 +116,7 @@
 			      <img id="embleem" src="afbeeldingen/CCC.png" alt="Embleem van het Certified Clown College">
                     <div id="footer-rechts">
 			      		<a class="navbutton" href="index.php">Home</a>
-			    		<a class="navbutton" href="contactpagina.php">contact</a>
+			    		<a class="navbutton" href="contactpagina.php">Contact</a>
 					  	<a class="navbutton" href="docenten.php">Docenten</a>
                         <a class="navbutton" href="opleidingen.php">Opleidingen</a>
                         <a class="navbutton" href="Gallerij.php">Gallerij</a>
