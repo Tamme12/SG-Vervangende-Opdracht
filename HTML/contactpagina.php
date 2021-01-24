@@ -14,8 +14,10 @@
 			    	<div class="logo"><img id="logo" src="afbeeldingen/icon.png" alt="Het logo van het Certified Clown College"></div>
 			    	<div class="knoppen">
 			    		<a class="navbutton" href="index.php">Home</a>
-			    		<a class="navbutton" href="contactpagina.php">contact</a>
-						<a class="navbutton" href="docenten.html">Docenten</a>
+			    		<a class="navbutton" href="contactpagina.php">Contact</a>
+						<a class="navbutton" href="docenten.php">Docenten</a>
+                        <a class="navbutton" href="opleidingen.php">Opleidingen</a>
+                        <a class="navbutton" href="Gallerij.php">Gallerij</a>
 			    	</div>
 			    </div>
             </div>
@@ -115,7 +117,9 @@
                     <div id="footer-rechts">
 			      		<a class="navbutton" href="index.php">Home</a>
 			    		<a class="navbutton" href="contactpagina.php">contact</a>
-					  	<a class="navbutton" href="docenten.html">Docenten</a>
+					  	<a class="navbutton" href="docenten.php">Docenten</a>
+                        <a class="navbutton" href="opleidingen.php">Opleidingen</a>
+                        <a class="navbutton" href="Gallerij.php">Gallerij</a>
 			        </div>
                 </div>
              </div>
