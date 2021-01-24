@@ -16,8 +16,9 @@ Opdracht: Vervangende opdracht -->
     <header>
       <a href="index.php"><img class="logo" src="Afbeeldingen/icon.png" alt="Logo" title="Logo"></a>
       <ul class="headul">
+		<li class="list"><a href="Gallerij.php">Gallerij</a></li>
         <li class="list"><a href="opleidingen.php">Opleidingen</a></li>
-        <li class="list"><a href="docenten.html">Docenten</a></li>
+        <li class="list"><a href="docenten.php">Docenten</a></li>
         <li class="list"><a href="contactpagina.php">Contact</a></li>
       </ul>
     </header>

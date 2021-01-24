@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Certified Clown College</title>
     <link href="docenten.css" rel="stylesheet">
+	
   </head>
 
   <body>
@@ -13,9 +14,10 @@
           <img src="img/icon.png" width="454" height="71" alt="Pennywise">
         </a>
         <ul class="navigation-list">
-          <li><a href="index.php">Home</a></li>
-          <li><a href="docenten.php">Docenten</a></li>
-          <li><a href="contactpagina.php">Contact</a></li>
+		  <li class="list"><a href="Gallerij.php">Gallerij</a></li>
+		  <li class="list"><a href="opleidingen.php">Opleidingen</a></li>
+          <li class="list"><a href="docenten.php">Docenten</a></li>
+          <li class="list"><a href="contactpagina.php">Contact</a></li>
         </ul>
       </nav>
     </header>

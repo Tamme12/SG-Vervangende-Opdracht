@@ -56,9 +56,9 @@ a:hover {
 	background-image: url("../Afbeeldingen/Background.png");
 	justify-content: space-around;
 	background-color: white;
-	height: 1000px;
+	height: 1200px;
 	display: flex;
-	width: 1920px;
+	width: 100%;
 }
 
 /* Beide kolommen */

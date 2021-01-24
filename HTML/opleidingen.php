@@ -16,8 +16,9 @@ Opdracht: Vervangende opdracht -->
     <header>
       <a href="index.php"><img class="logo" src="Afbeeldingen/icon.png" alt="Logo" title="Logo"></a>
       <ul class="headul">
+		<li class="list"><a href="Gallerij.php">Gallerij</a></li>
         <li class="list"><a href="opleidingen.php">Opleidingen</a></li>
-        <li class="list"><a href="docenten.html">Docenten</a></li>
+        <li class="list"><a href="docenten.php">Docenten</a></li>
         <li class="list"><a href="contactpagina.php">Contact</a></li>
       </ul>
     </header>
@@ -37,7 +38,7 @@ Opdracht: Vervangende opdracht -->
   <div class="column">
     <div class="titel"><h1>HBO Bachelor of Cabaret</h1></div>
       <div class="foto">
-        <a href="muzikant.php" id="foto2" title="Meer informatie"></a>
+        <a href="cabaret.php" id="foto2" title="Meer informatie"></a>
         </div>
       </div>
     </div>
