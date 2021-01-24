@@ -61,12 +61,15 @@ Opdracht: Vervangende opdracht -->
   </div>
 <!-- Einde midden informatie box -->
 
+<!-- Footer gebied -->
+<div class="footer">
+  <div class="footer-left">
+    <a href="index.php">Klik hier om terug te gaan naar de homepage</a>
+  </div>
+  <div class="footer-center">
 
+</div>
+<!-- Einde footer -->
 
-    <!-- Footer gebied -->
-    <div class="footer">
-      <p>Footer</p>
-    </div>
-    <!-- Einde footer -->
   </body>
 </html>

@@ -57,10 +57,11 @@ h1{
 
 .row-mus{
   background-image: url("../Afbeeldingen/Background.png");
-	justify-content: flex-start;
+	justify-content: flex-center;
   height: 1000px;
-  width: 1920px;
+  width: 100%;
 	display: flex;
+	padding-left: 17%;
 }
 
 .informatie-mus{
@@ -130,15 +131,4 @@ h1{
 
 .video-mus {
 	margin-top: 10px;
-}
-
-/* Footer */
-.footer {
-	background-color:#347ab5;
-	text-align: center;
-  position: fixed;
-	color: white;
-	width: 100%;
-	bottom: 0;
-  left: 0;
 }

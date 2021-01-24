@@ -7,7 +7,7 @@ Opdracht: Vervangende opdracht -->
   <head>
     <meta charset="utf-8">
     <title>Cabaret</title>
-    <link rel="stylesheet" type="text/css" href="css../Cabaret.css">
+    <link rel="stylesheet" type="text/css" href="css../cabaret.css">
     <link rel="shortcut icon" href="afbeeldingen/favicon.ico">
   </head>
   <body>
@@ -56,31 +56,12 @@ Opdracht: Vervangende opdracht -->
                     Tijdens hbo Bachelor of Cabaret leer je hoe je je eigen theatermateriaal maakt en het beste uitvoert. Je ontdekt hoe je contact legt met de mensen in de zaal, maar ook met theaters en media. Ook weet je na je afstuderen precies hoe je literaire stijlmiddelen zoals humor en overdrijving gebruikt in je materiaal en tijdens voorstellingen. Je wordt klaargestoomd om zelfstandig een cabaretvoorstelling te maken: van het bedenken en uitwerken van een thema tot het samenstellen van een artistiek team.</p><br><br>
             </div>
             <div class="video-cab">
-              <h1>Studeren tijdens COVID-19</h1>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/mQAyXwa24RQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <h1>Cabaretier in actie</h1>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/5Pg9ocFZrlI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
       </div>
     <!-- Einde midden informatie box -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Footer gebied -->
-    <div class="footer">
-      <p>Footer</p>
-    </div>
-    <!-- Einde footer -->
   </body>
 </html>
-
 <?php  ?>

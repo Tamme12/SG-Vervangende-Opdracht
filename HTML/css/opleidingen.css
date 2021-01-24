@@ -125,15 +125,3 @@ a:hover {
 	background-size: 65%;
 	transform: scale(2);
 }
-
-/* Footer */
-
-.footer {
-	background-color:#347ab5;
-	text-align: center;
-  position: fixed;
-	color: white;
-	width: 100%;
-	bottom: 0;
-  left: 0;
-}

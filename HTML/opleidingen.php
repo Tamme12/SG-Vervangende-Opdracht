@@ -42,17 +42,5 @@ Opdracht: Vervangende opdracht -->
       </div>
     </div>
 <!-- End Right Box Opleiding -->
-
-
-<!-- Footer gebied -->
-<div class="footer">
-  <div class="footer-left">
-    <a href="index.php">Klik hier om terug te gaan naar de homepage</a>
-  </div>
-  <div class="footer-center">
-
-</div>
-<!-- Einde footer -->
-
   </body>
 </html>
