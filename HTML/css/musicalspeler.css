@@ -1,0 +1,144 @@
+body {
+	background-color: #ffffff ;
+	font-family: Arial ;
+	overflow-y: hidden;
+	padding: 0 ;
+	margin: 0 ;
+}
+.container {
+	flex-direction: row ;
+	display: flex ;
+	height: 100% ;
+	width: 100% ;
+
+}
+div.main {
+	padding: 10px 10px 10px 100px ;
+	width: 1248px ;
+	height: 100% ;
+}
+
+/* Nav */
+
+header {
+	justify-content: space-between ;
+	background-color: #347ab5 ;
+	flex-direction:row ;
+	display:flex;
+	height:80px;
+	width:100%;
+}
+img.logo {
+}
+ul.headul {
+	text-decoration: none;
+	align-self:flex-end ;
+	display: inline ;
+}
+li.list {
+	text-decoration: none ;
+	margin-right: 25px ;
+	display: inline;
+	font-size: 200%;
+	transition: .5s;
+}
+a {
+	text-decoration:none;
+	color:#cc1f27
+}
+a:hover {
+	text-decoration-color:  #cc1f27 ;
+	text-decoration: underline ;
+}
+
+h1{
+	color:#cc1f27;
+}
+
+.row-mus{
+  background-image: url("../Afbeeldingen/Background.png");
+	justify-content: flex-start;
+  height: 1000px;
+  width: 1920px;
+	display: flex;
+}
+
+.informatie-mus{
+  background-color: #d3d3d3;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 1000px;
+	height: 990px;
+  display: flex;
+  width: 600px;
+}
+
+.foto-mus{
+  background: url("../Afbeeldingen/musicalspeler.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:auto;
+  border-style: outset;
+  margin-left: 50px;
+  margin-top: 45px;
+  height: 350px;
+  width: 500px;
+
+}
+
+.titel-mus{
+  text-align: center;
+  color:#cc1f27;
+	width: 600px;
+	height: 30px;
+}
+
+.slider-informatie {
+	background-color: #d3d3d3;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 1000px;
+	height: 990px;
+  display: flex;
+  width: 600px;
+
+}
+
+.tekst-mus {
+	text-align: center;
+	width: 600px;
+	height: 65px;
+	color: black;
+
+}
+
+.tekst-mus-desc{
+	padding-left: 25px;
+	text-align: left;
+}
+
+.slider-tekst {
+	text-align: left;
+	overflow: auto;
+	height: 250px;
+	width: 600px;
+}
+
+.video-mus {
+	margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+	background-color:#347ab5;
+	text-align: center;
+  position: fixed;
+	color: white;
+	width: 100%;
+	bottom: 0;
+  left: 0;
+}
