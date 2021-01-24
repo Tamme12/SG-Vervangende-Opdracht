@@ -37,7 +37,7 @@ Opdracht: Vervangende opdracht -->
   <div class="column">
     <div class="titel"><h1>HBO Bachelor of Cabaret</h1></div>
       <div class="foto">
-        <a href="muzikant.php" id="foto2" title="Meer informatie"></a>
+        <a href="cabaret.php" id="foto2" title="Meer informatie"></a>
         </div>
       </div>
     </div>
@@ -46,7 +46,11 @@ Opdracht: Vervangende opdracht -->
 
 <!-- Footer gebied -->
 <div class="footer">
-  <p>Footer</p>
+  <div class="footer-left">
+    <a href="index.php">Klik hier om terug te gaan naar de homepage</a>
+  </div>
+  <div class="footer-center">
+
 </div>
 <!-- Einde footer -->
 
