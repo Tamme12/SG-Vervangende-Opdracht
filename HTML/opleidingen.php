@@ -47,7 +47,11 @@ Opdracht: Vervangende opdracht -->
 
 <!-- Footer gebied -->
 <div class="footer">
-  <p>Footer</p>
+  <div class="footer-left">
+    <a href="index.php">Klik hier om terug te gaan naar de homepage</a>
+  </div>
+  <div class="footer-center">
+
 </div>
 <!-- Einde footer -->
 
