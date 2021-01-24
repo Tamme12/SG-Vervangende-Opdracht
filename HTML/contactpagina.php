@@ -11,7 +11,7 @@
 		<div class="boxes">
 			<div>
 			    <div class="boxes-header">
-			    	<div class="logo"><img id="logo" src="afbeeldingen/icon.png" alt="Het logo van het Certified Clown College"></div>
+                    <div class="logo"><a href="index.php"><img id="logo" src="afbeeldingen/icon.png" alt="Het logo van het Certified Clown College"></a></div>
 			    	<div class="knoppen">
 			    		<a class="navbutton" href="index.php">Home</a>
 			    		<a class="navbutton" href="contactpagina.php">Contact</a>
